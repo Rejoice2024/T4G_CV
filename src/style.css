@@ -1,0 +1,139 @@
+/* Second image for portfolio */
+
+.img2 {
+    border: 10px solid rgb(79, 80, 76);
+    margin: 10px 25px 20px;
+    width: 200px
+}
+
+
+/* first portfolio image */
+
+.img1 {
+    border: 10px solid rgb(102, 124, 124);
+    margin: 10px 25px 20px;
+    width: 200px;
+}
+
+
+/* portfolio's button */
+
+button {
+    color: rgb(17, 2, 31);
+    background-color: rgb(213, 213, 232);
+    opacity: 0.7;
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(79, 49, 190);
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+}
+
+
+/* header styling */
+
+.header {
+    display: flex;
+    justify-content: bottom;
+    /*background-color: rgb(218, 216, 213);*/
+    margin: 5px;
+    gap: 20px;
+    align-items: center;
+}
+
+
+/* header image styling */
+
+.header img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: 5px solid rgb(192, 172, 152);
+}
+
+
+/* contact detail styling */
+
+.contact h1 {
+    background-color: rgb(155, 169, 172);
+    padding: 2px;
+    width: 600px;
+}
+
+
+/* name styling */
+
+.resume h1 {
+    color: rgb(24, 24, 42);
+}
+
+.sum h2 {
+    color: rgb(7, 7, 234);
+}
+
+.edu h2 {
+    color: rgb(7, 7, 234);
+}
+
+.exper h2 {
+    color: rgb(7, 7, 234);
+}
+
+.skill h2 {
+    color: rgb(7, 7, 234);
+}
+
+.cert h2 {
+    color: rgb(7, 7, 234);
+}
+
+.portfolio-section h2 {
+    color: rgb(7, 7, 234);
+}
+
+.page {
+    background-color: rgb(218, 216, 213);
+}
+
+.references-section {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.references-section h2 {
+    margin-bottom: 5px;
+    color: rgb(7, 7, 234);
+}
+
+.contact-button-container {
+    margin-top: 10px;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #0056b3;
+    /* Professional blue */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.contact-button:hover {
+    background-color: #004494;
+}
+
+
+/* This centers your resume on the screen like a sheet of paper */
+
+.page {
+    width: 250mm;
+    min-height: 250mm;
+    margin: 20px auto;
+    padding: 20mm;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
